@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-bar" id="nav-bar">
+            <h2>Uthran G S</h2>
+            <div class="menu" id="menu">
+                <img src="icons8-menu-bar.svg" alt="">
+            </div>
+             <ul>
+                <li>
+                    <h4><a href="#about">About</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#experience">Experience</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#project">Projects</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#contact">Contact</a></h4>
+                </li>
+             </ul>
+        </nav>
+        <div class="opening" id="opening">
+            <div class="close" id="close">
+            <img src="close.png" alt="">
+        </div>
+            <ul>
+            
+                <li>
+                    <h4><a href="#about">About</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#experience">Experience</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#project">Projects</a></h4>
+                </li>
+                <li>
+                    <h4><a href="#contact">Contact</a></h4>
+                </li>
+            </ul>
+        </div>
+        <div class="about" id="about">
+          <div class="profile">
+            <img src="croped-my-image.jpg" alt="">
+          </div>
+          <div class="info">
+            <span><p>Hello I'm</p></span>
+            <span><h2>Uthran</h2></span>
+            <span><h3>Full Stack Dveloper</h3></span>
+            <div class="button">
+                <Button class="b1"><a href="portfolio.pdf">Download Cv</a></Button>
+                <button class="b2">Contact Me</button>
+            </div>
+
+          </div>
+          <div class="about-info">
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="experience" id="experience">
+            <div class="line"></div>
+            <div class="experience-box">
+                <div class="experience-info-image">
+                    <img src="untitlsssssed.png" alt="">
+                </div>
+    <div class="experience-info-1">
+        <img src="exp_image.jpg" alt="">
+        <h4>Full Stack Developer</h4>
+        <div class="exp-ul">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>Core java</li>
+        </ul>
+        <ul>
+            <li>React JS</li>
+            <li>Spring Boot</li>
+            <li>My SQL</li>
+            <li>MongoDB</li>   
+        </ul>
+    </div>
+    </div>
+    <div class="experience-info-2">
+        <img src="education-logo.png" alt="">
+        <h4>Bsc.Computer Science</h4>
+    </div>
+</div>
+      <div class="experience-h2">
+        <h2>Experience</h2>
+      </div>
+        </div>
+        <div class="project" id="project">
+           <div class="div-projects">
+            <div class="project-1">
+               <div class="div-images">
+                <img src="project-1.jpg" alt="">
+               </div>
+                <h2>project-1</h2>
+                <a href=""></a>
+            </div>
+            <div class="project-2">
+                <div class="div-images">
+                    <img src="project-2.jpg" alt="">
+                </div>
+                <h2>project-2</h2>
+                <a href=""></a>
+            </div>
+            <div class="project-3">
+               <div class="div-images">
+                <img src="preject-3.jpg" alt="">
+               </div>
+                <h2>project-3</h2>
+            </div>
+           </div>
+           <div class="project-h2">
+            <h1>Projects</h1>
+           </div>
+        </div>
+        <div class="line"></div>
+        <div class="contact" id="contact">
+           <div class="get-in">
+            <p>Get In Touch</p>
+            <h1>Conatct Me</h1>
+           
+           <div class="mail">
+            <img src="mail-logo.jpg" alt="">
+           <h5>Uthiranuthiran@gmail.com</h5>
+           </div>
+        </div>
+        </div>
+        <div class="line"></div>
+        <footer>
+            <p>Copyright @2025 Uthran G S. All Rights Reserved </p>
+           </footer>
+    </div>
+    <script>
+let menu=document.getElementById('menu')
+let opening =document.getElementById('opening')
+let nav=document.getElementById('nav-bar')
+let close=document.getElementById('close')
+menu.addEventListener('click',()=>{    
+       opening.style.display="block"
+    //    menu.style.display='none'
+       
+})
+ close.addEventListener('click',()=>{
+     opening.style.display="none"
+ })
+
+    </script>
+</body>
+</html>
